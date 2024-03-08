@@ -1,0 +1,11 @@
+{
+  "name": "examen-practico-web",
+  "version": "1.0.0",
+  "description": "Examen ProgramacionWeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yahir00s",
+  "license": "ISC"
+}

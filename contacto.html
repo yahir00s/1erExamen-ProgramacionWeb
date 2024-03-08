@@ -6,7 +6,7 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="cont">
     <header>
         <p id="ic"> Colima.NET</p>
         <nav>
@@ -17,18 +17,27 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="contact">
         <h1>Contacto</h1>
-        <p>¡Estamos encantados de saber de ti!</p>
+        <p id="enc">¡Estamos encantados de saber de ti!</p>
         <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
+            <div>
+                <p>Nombre: </p>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <p>Email:</p>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <p>Mensaje</p>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
             <button type="submit">Enviar</button>
         </form>
     </main>
+    <footer>
+        <p id="fot">&copy; 2024 Yahir Acevedo</p>
+    </footer>
 </body>
 </html>
